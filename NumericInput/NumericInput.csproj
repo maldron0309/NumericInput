@@ -1,9 +1,27 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<PackageId>NumericInput</PackageId>
+		<Version>1.0.1</Version>
+		<Authors>Maldron</Authors>
+		<Company>Maldron</Company>
+		<Description>A custom numeric input control for .NET applications.</Description>
+		<Copyright>Copyright (c) Maldron</Copyright>
+		<PackageTags>numeric input</PackageTags>
+		<PackageProjectUrl>https://github.com/maldron0309/NumericInput</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/maldron0309/NumericInput.git</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>	
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="LICENSE.txt" Pack="true" PackagePath="" />
+		<None Include="README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
 
 </Project>
