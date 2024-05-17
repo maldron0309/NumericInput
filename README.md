@@ -7,6 +7,7 @@ C#에서 숫자 입력을 받는 작업을 간소화하고 입력 검증을 쉽�
 이 라이브러리는 해당 작업을 조금 간소화 시킬 수 있습니다.
 
 ## 설치
+`dotnet add package NumericInput --version 1.0.1` 명령어로 설치 후
 `using NumericInput;` 을 통해 라이브러리 사용이 가능합니다.
 
 ### 기능
