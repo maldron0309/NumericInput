@@ -5,6 +5,7 @@
 NumericInput is a library that simplifies the task of receiving numeric input and input validation in C#. When using `Console.ReadLine()` to receive numeric input, you need to convert the string to a number. This library streamlines that process.
 
 ## Installation
+After installation with the command `dotnet add package NumericInput --version 1.0.1`, 
 To use the library, include `using NumericInput;` in your code.
 
 ### Features
